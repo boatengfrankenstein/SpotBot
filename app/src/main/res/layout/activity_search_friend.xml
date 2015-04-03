@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:background="#FFF"
+    android:id="@+id/searchf"
+    android:weightSum="1">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:drawableLeft="@android:drawable/ic_menu_search"
+        android:textStyle="italic"
+        android:layout_margin="15dp"
+        android:padding="5dp"
+        android:background="@drawable/card_bg"
+        android:hint="Enter friends username"/>
+    <EditText
+        android:id="@+id/user_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:textStyle="italic"
+        android:padding="5dp"
+        android:hint="Enter handle key of your friend"
+        android:background="@drawable/card_bg"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:id="@+id/ok_go"
+        android:text="@string/ok_go"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.13" />
+</LinearLayout>

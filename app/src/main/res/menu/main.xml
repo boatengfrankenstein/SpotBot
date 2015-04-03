@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_contact"
+        android:icon="@drawable/ic_action_user"
+        app:showAsAction="collapseActionView"
+        android:title="@string/action_contact"/>
+    <item
+        android:id="@+id/find_friend_location"
+
+        app:showAsAction="collapseActionView"
+        android:title="Find Friends"/>
+
+
+</menu>

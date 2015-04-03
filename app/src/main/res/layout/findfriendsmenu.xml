@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="170dip"
+        android:scaleType="centerCrop"
+        android:src="@drawable/contact" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/image"
+        android:background="#77000000"
+        android:paddingBottom="14dip"
+        android:paddingLeft="8dip"
+        android:paddingTop="14dip"
+        android:text="Quick Contact"
+        android:textColor="#FFFFFFFF"
+        android:textSize="18sp" />
+
+    <com.astuetz.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="62dip"
+        android:layout_below="@+id/image"
+        android:background="@drawable/background_tabs_diagonal"
+        app:pstsDividerColor="#00000000"
+        app:pstsIndicatorColor="#FF33B5E6"
+        app:pstsTabPaddingLeftRight="14dip"
+        app:pstsUnderlineColor="#FF33B5E6" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter friends name."
+        android:layout_alignBottom="@+id/buttonFloat"
+        android:layout_alignRight="@+id/buttonFloat"
+        android:layout_alignEnd="@+id/buttonFloat" />
+
+    <com.boakye.danielspotbot.viewcards.QuickContactFragment
+        android:id="@+id/buttonFloat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="#1E88E5"
+        materialdesign:animate="true"
+        materialdesign:iconDrawable="@drawable/ic_launcher_chrome"
+        android:layout_alignBottom="@+id/tabs"
+        android:layout_alignParentRight="true"
+         />
+
+</RelativeLayout>

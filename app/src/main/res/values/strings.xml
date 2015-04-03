@@ -1,0 +1,60 @@
+<resources>
+
+    <string name="app_name">SpotBot</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Log Out</string>
+    <string name="APP_ID">738960499544384</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="welcome">WELCOME</string>
+    <string name="get_started">To get started, log in using Facebook</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="action_logout">LogOut</string>
+    <string name="title_activity_log_in">LogInActivity</string>
+    <string name="user_id">Email Address</string>
+    <string name="password">Password</string>
+    <string name="Login_lable">Login</string>
+    <string name="sign_upText">Sign Up!</string>
+    <string name="title_activity_sgin_up">Components.SginUpActivity</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="hand_shake">hand shake key</string>
+    <string name="usernameC">choose a username</string>
+    <string name="signUpError">Please make sure you entered all fields correctly</string>
+    <string name="loginError">Please make sure you entered all fields correctly</string>
+    <string name="errorTitle">Oops!..</string>
+    <string name="key">choose a key</string>
+    <string name="go">GO!</string>
+    <string name="editfriends">Edit Friends</string>
+    <string name="search_hint">search friends and family using username</string>
+    <string name="title_activity_edit_friends">Components.EditFriendsActivity</string>
+    <string name="title_activity_search_friend">Components.SearchFriendActivity</string>
+    <string name="ok_go">OK GO!</string>
+    <string name="title_activity_upload_photo_dialog">Components.UploadPhotoDialog</string>
+    <string name="general_error">Something went wrong getting image</string>
+    <string name="error_external_storage">Unable to access external storage</string>
+
+    <string name="menu_settings"> Menu</string>
+    <string name="action_contact">Contact</string>
+
+    <string-array name="camera_choices">
+        <item>Take Picture</item>
+        <item>Choose Picture</item>
+    </string-array>
+
+    <string name="title_activity_facebook_fragment">Components.FacebookFragment</string>
+    <string name="title_activity_map_view">MapView</string>
+    <string name="title_activity_card_view">CardViewActivity</string>
+    <string name="cardview_contents">This is a CardView widget. CardView widgets can have
+        shadows and rounded corners.
+        \n\nTo create a card with a shadow, use the <font fgcolor="#FFFFFFFF">android:elevation</font>
+        attribute.
+        \n\nTo set the corner radius in your layouts, use the <font
+            fgcolor="#FFFFFFFF">card_view:cardCornerRadius</font> attribute.
+    </string>
+    <string name="cardview_radius_seekbar_text">Radius</string>
+    <string name="cardview_elevation_seekbar_text">Elevation</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve">AIzaSyDKZjNDdhAbkdoT1V38OISWnom3idoVjNM</string>
+
+</resources>

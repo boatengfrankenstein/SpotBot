@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:weightSum="1"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#e5e5e5">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_margin="2dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/otherFriendsId"
+            android:maxLines="1"
+            android:layout_weight="0.8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:imeActionLabel="DONE"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_weight="0.2"
+            android:text="GO"
+            android:id="@+id/show_dialog"
+            android:onClick="showDialog"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>
